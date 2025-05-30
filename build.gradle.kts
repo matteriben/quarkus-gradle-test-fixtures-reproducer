@@ -1,6 +1,7 @@
 plugins {
     java
     id("io.quarkus")
+    id("java-test-fixtures")
 }
 
 repositories {
