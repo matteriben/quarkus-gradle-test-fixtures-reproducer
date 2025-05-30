@@ -46,5 +46,5 @@ jobs:
           ./gradlew clean test \
             -PquarkusPluginVersion=${{ matrix.quarkusVersion }} \
             -PquarkusPlatformVersion=${{ matrix.quarkusVersion }} \
-            --rerun-tasks --no-build-cache
+            --rerun-tasks --no-build-cache --scan
 
